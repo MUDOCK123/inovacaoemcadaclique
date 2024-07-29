@@ -1,0 +1,31 @@
+import React from "react";
+import "./styles.css";
+
+export default function projetoWf() {
+
+    return(
+        <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>Inovação em Cada Clique: Seu Portal para a Tecnologia do Futuro</title>
+        </head>
+        <body>
+            <header className="cabecalho-header">
+                    <h1>Onde Inovação Encontra a&nbsp;<strong className="palavraForte">Tecnologia</strong></h1>   
+                    <h3>Transformando o futuro com inovação e tecnologia de ponta.</h3>
+            </header>
+            <main>
+                <img className="imagem-principal" src="https://img1.picmix.com/output/stamp/normal/9/2/5/2/362529_292c5.gif" alt="Gif Principal"></img>
+            </main>
+            <footer>
+                <div>
+                    <h4 className="textoDeRedeSocial">Nos siga em nossas redes sociais:</h4>
+                    <button className="botaoUm"><a href="https://www.instagram.com/osbr.consultoria/"><img className="insta" src="https://static.vecteezy.com/system/resources/previews/018/930/691/non_2x/instagram-logo-instagram-icon-transparent-free-png.png" alt="Logo Instagram"></img></a></button>
+                    <button className="botaoDois"><a href="https://github.com/MUDOCK123"><img className="github" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Github-desktop-logo-symbol.svg/2048px-Github-desktop-logo-symbol.svg.png" alt="Logo Github"></img></a></button>
+                </div>
+            </footer>
+        </body>
+        </html>
+    );
+}
